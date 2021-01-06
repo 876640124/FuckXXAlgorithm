@@ -1,16 +1,15 @@
 package algorithm.chn.leecode;
 
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
-
 public class problemOffer06 {
+
+    static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+        }
+    }
 
     public static void main(String[] args) {
         ListNode listNode1 = new ListNode(1);

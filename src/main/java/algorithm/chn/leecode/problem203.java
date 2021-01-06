@@ -32,7 +32,7 @@ public class problem203 {
 
         ListNode pre = sentinel;
         ListNode curr = head;
-
+        sentinel.next = head;
         while (curr != null) {
             if (curr.val == val) {
                 pre.next = curr.next;
