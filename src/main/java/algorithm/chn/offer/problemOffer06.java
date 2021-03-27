@@ -1,4 +1,4 @@
-package algorithm.chn.leecode;
+package algorithm.chn.offer;
 
 public class problemOffer06 {
 
